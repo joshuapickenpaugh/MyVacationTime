@@ -293,14 +293,14 @@ public class GUI extends javax.swing.JFrame {
         String strHours;     
         
         //Calcuates weeks, days, and hours:
-        while (intFrstHalf >= 168)
+        while (intFrstHalf >= 40)
         {
-            intFrstHalf = intFrstHalf - 168;
+            intFrstHalf = intFrstHalf - 40;
             intWeeksCounter++;
         }
-        while (intFrstHalf >= 24)
+        while (intFrstHalf >= 8)
         {
-            intFrstHalf = intFrstHalf - 24;
+            intFrstHalf = intFrstHalf - 8;
             intDaysCounter++;
         }
         dblHours = intFrstHalf;
